@@ -77,8 +77,8 @@ hooks - 包含为个性化应用编译系统所需的脚本
             "release": {
             "keystore": "release-key.keystore",
             "alias": "vue-app",
-            <!--"storePassword": "testing",-->
-            <!--"password": "testing"-->
+            <!--"storePassword": "xxx123",-->
+            <!--"password": "xxx123"-->
 
             }
         }
