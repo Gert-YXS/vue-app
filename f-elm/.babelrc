@@ -1,0 +1,35 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "stage-2" // 默认es2015第二阶段
+  ],
+  "plugins": [
+    "transform-runtime",
+    [
+        "component",
+        [
+          {
+            "libraryName": "mint-ui",
+            "style": true
+          }
+        ]
+      ]
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "stage-2"
+      ],
+      "plugins": [
+        "istanbul"
+      ]
+    }
+  }
+}

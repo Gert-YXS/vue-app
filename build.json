@@ -1,0 +1,10 @@
+{
+  "android": {
+    "release": {
+      "keystore": "release-key.keystore",
+      "alias": "vue-app",
+      "storePassword": "mima12",
+      "password": "mima12"
+    }
+  }
+}
